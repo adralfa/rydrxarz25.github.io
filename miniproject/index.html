@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Mini Project - Adra Zulfi Alfauzi</title>
+    <link rel="stylesheet" href="index.css">
+    <script type="text/javascript">
+        function cek() {
+            var nama = document.getElementById("nama");
+            var email = document.getElementById("email");
+            var opt = document.getElementById("theoption");
+
+            if(nama == "" || email == "" || opt == "") {
+                alert("Data harus diisi dengan lengkap!");
+            }
+        }
+    </script>
+</head>
+<body>
+    <nav class="navigation">
+        <h3>moqups</h3>
+        <button><a href="#home">Home</a></button>
+        <button><a href="#our-package">Our Package</a></button>
+        <button><a href="#call-us">Call Us</a></button>
+    </nav>
+    <br id="home">
+    <main>
+        <br>
+        <h1>Top Rated E-Groceries Shop in Indonesian</h1>
+        <p class="text-gray">Every Day with best ingredients</p>
+        <br><br>
+
+        <div class="content1">
+            <div class="content1-left">
+                <img src="img/image_not_found.png"><br>
+                <p class="text-gray font14 left c1"><i>"setiap hari beli sayur buah yang fresh di sini"</i></p>
+                <br>
+                <div class="user">
+                    <div class="fotouser">
+                        <img src="img/user.png">
+                    </div>
+                    <div class="namauser">
+                        <p class="font14 left"><b>Florence Hughes</b></p>
+                        <p class="left text-gray" style="margin-top: -10px;"><i>Ibu Rumah Tangga, 28</i></p>
+                    </div>
+                </div>
+                <br>
+                <hr class="hrc1">
+                <br>
+                <p class="cp5 left font14" style="
+                padding-right: 20px;"><b>Use this space to provide users with more information about your offer. Consider it a follow-up to your headline and explain the benefits of your service or product.</b></p>
+                <div class="poin cp5">
+                    <div class="nopoin"><p>1</p></div>
+                    <br>
+                    <p class="isipoin">Your first feature, written in the form of a benefit statement.</p>
+                </div>
+                <div class="poin cp5">
+                    <div class="nopoin"><p>2</p></div>
+                    <br>
+                    <p class="isipoin">Your second feature, written in the form of a benefit statement.</p>
+                </div>
+                <div class="poin cp5">
+                    <div class="nopoin"><p>3</p></div>
+                    <br>
+                    <p class="isipoin">Your third feature, written in the form of a benefit statement.</p>
+                </div>
+            </div>
+            <div class="content1-right" id="callus">
+                <form action="#">
+                    <h3>Contact Us</h3>
+                    <p class="text-gray left">Sales akan menghubungi anda 1x24 jam setelah data kami terima.</p>
+                    <br>
+                    <label for="nama">Your Name :</label><br>
+                    <input type="text" name="nama" id="nama" placeholder="First and Last Name">
+                    <label for="email">Email Address :</label><br>
+                    <input type="text" name="email" id="email" placeholder="example@email.com">
+                    <label for="theoption">What are you interested in?</label><br>
+                    <select name="theoption" id="theoption">
+                        <option value="">Select Option</option>
+                        <option value="HTML">HTML</option>
+                        <option value="JS">JavaScript</option>
+                        <option value="PHP">PHP</option>
+                    </select>
+                    <input class="btnsubmit" type="submit" value="SEND" onsubmit="cek()">
+                </form>
+            </div>
+        </div>
+        <br id="our-package">
+        <div class="content2">
+            <div class="hop">
+                <h1>Our Package</h1>
+            </div>
+            <div class="dop">
+                <div class="subdop">
+                    <div class="isidop">
+                        <div class="bulb"><img src="img/bulb.png"></div>
+                        <div class="sntc">
+                            <p class="font14 left"><b>Fresh Vegetable</b></p>
+                            <p class="text-gray left">Sayuran segar langsung dari sumber pertanian terbaik</p>
+                        </div>
+                    </div>
+                    <div class="isidop">
+                        <div class="bulb"><img src="img/bulb.png"></div>
+                        <div class="sntc">
+                            <p class="font14 left"><b>Fresh Food</b></p>
+                            <p class="text-gray left">Buah dengan kualitas terbaik dari lokal atau import dan harga yang menarik</p>
+                        </div>
+                    </div>
+                    <div class="isidop">
+                        <div class="bulb"><img src="img/bulb.png"></div>
+                        <div class="sntc">
+                            <p class="font14 left"><b>Instant Delivery</b></p>
+                            <p class="text-gray left">Dikirim instan oleh kurir yang telah ditraining dengan SOP untuk menjaga kondisi belanja kamu</p>
+                        </div>
+                    </div>
+                    <div class="isidop">
+                        <div class="bulb"><img src="img/star.png"></div>
+                        <div class="sntc">
+                            <p class="font14 left"><b>Kitchen Ingredient</b></p>
+                            <p class="text-gray left">Bumbu dapur lengkap untuk keperluan memasak kamu</p>
+                        </div>
+                    </div>
+                    <div class="isidop">
+                        <div class="bulb"><img src="img/star.png"></div>
+                        <div class="sntc">
+                            <p class="font14 left"><b>Kitchen Set</b></p>
+                            <p class="text-gray left">Segala jenis alat masak untuk membantu kamu memasak</p>
+                        </div>
+                    </div>
+                    <div class="isidop">
+                        <div class="bulb"><img src="img/star.png"></div>
+                        <div class="sntc">
+                            <p class="font14 left"><b>Bunding Set</b></p>
+                            <p class="text-gray left">Bingung masak apa? Sudah tersedia paket untuk kamu masak di dapurmu</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr class="hrnav">
+        <br id="call-us">
+        <div class="content3">
+            <h1><b>Your Closing Argument Headline</b></h1>
+            <p class="text-gray left">Suspendisse egestas rhoncus urna in bibendum. Donec urna neque, euismod sed justo quis, convallis tincidunt risus. Phasellus fringilla odio vel erat fringilla,</p>
+            <button class="btn-cto"><a href="#callus"><b>CALL TO ACTION</b></a></button>
+        </div>
+        <hr class="hrnav">
+        <div class="footer">
+            <h3>moqups</h3>
+            <p>Terms of Service     Privacy Policy<br>© 2019    Moqups</p>
+        </div>
+    </main>
+</body>
+</html>
